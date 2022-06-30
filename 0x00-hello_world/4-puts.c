@@ -1,6 +1,6 @@
 / * prints Programming is like building a multilingual puzzle
  *
- *  * returns 0
+ *  returns 0
  *
  */
 #include <stdio.h>
