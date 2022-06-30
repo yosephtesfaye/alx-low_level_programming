@@ -1,9 +1,10 @@
-/ * prints Programming is like building a multilingual puzzle
+#include <stdio.h>
+/** prints Programming is like building a multilingual puzzle
  *
  *  returns 0
  *
  * /
-#include <stdio.h>
+
  int main()
 
 {
