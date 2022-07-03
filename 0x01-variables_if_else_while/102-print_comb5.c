@@ -5,25 +5,30 @@
  */
 int main(void)
 {
-int a;
-int b;
-int c;
-int d;
-for (a = 0; a <= 9; a++)
+int c, i, k, j;
+for (c = 48; c <= 57; c++)
 {
-for (b = a; b <= 9; b++)
+for (i = 48; i <= 57; i++)
 {
-for (c = b; c <= 9; c++)
+for (k = 48; k <= 57; k++)
 {
-for (d = c + 1; d <= 9; d++)
+for (j = 48; j <= 57; j++)
 {
-if (a == 9 && b == 8 && c == 9 && d == 9)
+if (((k + j) > (c + i) &&  k >= c) || c < k)
 {
-printf("%d%d %d%d", a, b, c, d);
+putchar(c);
+putchar(i);
+putchar(' ');
+putchar(k);
+putchar(j);
+if (c + i + k + j == 227 && c == 57)
+{
+break;
 }
 else
 {
-printf("%d%d %d%d, ", a, b, c, d);
+putchar(',');
+putchar(' ');
 }
 }
 }
