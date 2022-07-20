@@ -10,6 +10,6 @@ int factorial(int n)
 		return (-1);
 	else if (n == 1)
 		return (1);
-	n = factorial(n - 1);
+	n = n * factorial(n - 1);
 	return (n);
 }
