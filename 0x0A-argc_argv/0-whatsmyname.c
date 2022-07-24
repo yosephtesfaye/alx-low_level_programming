@@ -1,23 +1,15 @@
-#include <stdio.h>                                                              /**                                                                               * main - program that prints its name, followed by a new line
-										  @argc: number of arguments                                                        
+#include <stdio.h>
+/**
+ * main - return the argument
+ * @argv: array with the arguments
+ * @argc: count the size
+ * Return: always 0
+ */
+int main(int argc, char *argv[])
+		{
 
- * @argv: array with the arguments                                                   
+		(void)argc;
 
- *                                                                                   
-
- * Return: always 0                                                                  
-
- **/                                                                                 
-
-int main(int argc, char *argv[])                                                     
-
-{                                                                                    
-      (void)argc;                                                                  
-
-                                                                                     
-
-        printf("%s\n", argv[0]);                                                     
-
-        return (0);                                                                  
-
-}
+		pintf("%s\n", argv[0];
+		return (0);
+		}
