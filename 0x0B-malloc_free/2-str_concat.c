@@ -22,7 +22,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	else if (s1 != NULL && s2 == NULL)
 	{
-		conc = malloc(len1 * sizeof(char));
+		conc = malloc((len1 + 1) * sizeof(char));
 		for (i = 0; i < len1; i++)
 		{
 			conc[i] = s1[i];
