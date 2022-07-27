@@ -6,7 +6,7 @@
  * *_strdup - return a new referese which get the duplicate
  * * of a given sting
  * @str: pointer reference
- * Retrun: characer refrernece or NULL
+ * Return: characer refrernece or NULL
  */
 
 char *_strdup(char *str)
@@ -20,7 +20,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	ne = (char *)malloc(size * sizeof(char));
+	ne = (char *)malloc(size + 1 * sizeof(char));
 	for (i = 0; i <= size; i++)
 	{
 		ne[i] = str[i];
