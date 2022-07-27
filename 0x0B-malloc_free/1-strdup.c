@@ -21,10 +21,15 @@ char *_strdup(char *str)
 	}
 
 	ne = (char *)malloc(size + 1 * sizeof(char));
+	
+	if (ne == NULL)
+	{
+		return (NULL);
+	}
 	for (i = 0; i <= size - 1; i++)
 	{
 		ne[i] = str[i];
 	}
 	ne[i] = '\0';
 	return (ne);
-}		
+}
