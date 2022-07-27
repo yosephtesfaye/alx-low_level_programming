@@ -25,5 +25,6 @@ char *_strdup(char *str)
 	{
 		ne[i] = str[i];
 	}
+	ne[i]='\0';
 	return (ne);
-}
+}		
