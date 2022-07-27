@@ -10,7 +10,7 @@
 
 char *_strdup(char *str)
 {
-	int size = sizeof(str) - 1;
+	int size = sizeof(str);
 	char *ne;
 	int i;
 
