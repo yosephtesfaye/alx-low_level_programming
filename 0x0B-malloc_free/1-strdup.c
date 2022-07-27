@@ -17,7 +17,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 	{
-		return (NULL);
+		return (0);
 	}
 
 	ne = (char *)malloc(size + 1 * sizeof(char));
@@ -31,5 +31,6 @@ char *_strdup(char *str)
 		ne[i] = str[i];
 	}
 	ne[i] = '\0';
+
 	return (ne);
 }
