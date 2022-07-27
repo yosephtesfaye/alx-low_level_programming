@@ -21,7 +21,7 @@ char *_strdup(char *str)
 	}
 
 	ne = (char *)malloc(size * sizeof(char));
-	for (i = 0; i < size; i++)
+	for (i = 0; i <= size; i++)
 	{
 		ne[i] = str[i];
 	}
