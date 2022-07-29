@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * multiple - finds multiple of 3 and 5
  * 
  */
-void  multiple()
+void  main()
 {
-	int i, sum = 0;
+	int i;
+       int sum = 0;
 	
 	for(i = 3; i <= 1024; i++)
 	{
