@@ -3,7 +3,7 @@
  * multiple - finds multiple of 3 and 5
  * 
  */
-void  main()
+int main(void)
 {
 	int i;
        int sum = 0;
@@ -14,5 +14,5 @@ void  main()
 			sum += i;
 	}
 	printf("%d\n",sum);
-
+	return (0);
 }
