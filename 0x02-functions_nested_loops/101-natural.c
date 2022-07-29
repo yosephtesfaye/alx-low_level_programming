@@ -1,7 +1,7 @@
-#include"main.h"
+#include<stdio.h>
 /**
  * multiple - finds multiple of 3 and 5
- * Return: sum of multiples
+ * 
  */
 void  multiple()
 {
@@ -12,6 +12,6 @@ void  multiple()
 		if(i % 3 == 0 || i % 5 == 0)
 			sum += i;
 	}
-	_putchar(sum +'0');
+	printf("%d\n",sum);
 
 }
