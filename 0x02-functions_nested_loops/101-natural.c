@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * multiple - finds multiple of 3 and 5
- * 
+ * main - finds multiple of 3 and 5
+ * Return: zero
  */
 int main(void)
 {
