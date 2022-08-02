@@ -1,15 +1,10 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - prints name of the file followed by new line
  *
  */
 void main()
 {
-	while(_FILE_ != '\0')
-	{
-		_putchar(_FILE_);
-	}
-	_putchar('\n');
-
+	printf("%s\n",_FILE_);
+	
 }
-
