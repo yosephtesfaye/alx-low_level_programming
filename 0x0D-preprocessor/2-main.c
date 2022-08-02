@@ -3,8 +3,8 @@
  * main - prints name of the file followed by new line
  *
  */
-void main()
+int  main()
 {
-	printf("%s\n",_FILE_);
-	
+	printf("%s\n",__FILE__);
+	return (0);	
 }
